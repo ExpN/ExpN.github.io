@@ -1,5 +1,5 @@
 const TitleText = "SOLIPSISTIC.NET";
-const TitleFont = "https://solipsistic.net/Fonts/Title.ttf";
+const TitleFont = "https://solipsistic.net/Fonts/ZenDots.ttf";
 const TitleFontSizeREM = 6.0;
 const TitleStrokeWidth = 2;
 const TitleGlyphDrawTime = 2.0;
