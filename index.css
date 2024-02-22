@@ -1,0 +1,22 @@
+:root {
+	--site-title-outline-width: 0.5rem;
+    --bg-color: #101010;
+	--txt-color: #FFFFFF;
+}
+
+body {
+	margin: 0;
+	background-color: var(--bg-color);
+	color: var(--txt-color);
+}
+
+#title-container {
+	margin: 4rem 0;
+	height: 8rem;
+	display: flex;
+	align-items: center;
+}
+
+#title {
+	margin: 0 auto;
+}
