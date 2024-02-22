@@ -1,4 +1,4 @@
-const TitleText = "TEST FOR TESTING AAAAAA";
+const TitleText = "SOLIPSISTIC.NET";
 const TitleFont = "https://solipsistic.net/Fonts/Title.ttf";
 const TitleFontSizeREM = 6.0;
 const TitleStrokeWidth = 2;
