@@ -71,7 +71,7 @@ function drawKeys(){
 		ctx.stroke();
 	}
 	ctx.font = "italic 30px Titlefont"
-	ctx.fillText("SOLIPSIST", 30,60);
+	ctx.fillText("SOLIPSIST", 20,60);
 	for(button in synthTypes){
 		var theKey = synthTypes[button]
 		drawBorder(theKey["X"],theKey["Y"],theKey["Width"],theKey["Height"])
