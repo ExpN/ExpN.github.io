@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+	<body style="background-image: url('visual/padlockdark.png');">
+		<img id="coin" src="visual/coin.png" style="position: absolute; width: 50px; top:50%; left:50%">
+		<audio id="coinSound" src="visual/coin.mp3"></audio>	
+	</body>
+</html>
+<script type="text/javascript">
+	var coin = document.getElementById("coin")
+	var coinSound = document.getElementById("coinSound")
+	coin.addEventListener("click", function(){
+		var newCoin = coin.cloneNode(true);
+		newCoin.removeAttribute("id");
+		newCoin.style.width = "50px"
+		newCoin.style.left = Math.floor(Math.random() * 101)+"%";
+		newCoin.style.top = Math.floor(Math.random() * 101)+"%";
+		coinSound.play()
+		document.body.appendChild(newCoin)
+	}
+	)
+</script>
